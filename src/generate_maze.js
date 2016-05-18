@@ -1,7 +1,4 @@
-const shuffle = arr => arr
-  .map(el => [Math.random(), el])
-  .sort()
-  .map(([_, el]) => el)
+const shuffle = arr => arr.sort(_ => Math.random() - 0.5)
 
 /**
  * Maze generator visits nodes in a grid with a given number of rows and columns
