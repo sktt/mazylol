@@ -1,6 +1,9 @@
 # Maze generator
 Creates a maze using a depth first approach and some randomization
 
+### Depends
+- node 6
+
 ## CLI
   `./cli.js <rows> <cols>`
 

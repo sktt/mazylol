@@ -1,4 +1,4 @@
-#!/usr/bin/env babel-node --presets es2015
+#!/usr/bin/env node
 
 const gen = require('./src/generate_maze.js')
 
